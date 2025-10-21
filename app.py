@@ -24,7 +24,7 @@ client = OpenAI()
 MODEL_FILE = "half_maraton_predictor_model_v2.pkl"
 CSV_2023 = "clean_halfmarathon_2023.csv"
 CSV_2024 = "clean_halfmarathon_2024.csv"
-IMAGE_FILE = "bieg.png"
+IMAGE_FILE = "Bieg.png"
 
 model = joblib.load(MODEL_FILE)
 df_2023 = pd.read_csv(CSV_2023)
